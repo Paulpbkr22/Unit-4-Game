@@ -1,14 +1,15 @@
 /* General Elements*/
 body{
-	background-image: url("https://images.unsplash.com/photo-1533737338828-ebebc30718b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80")
+	background-image: url("https://images.unsplash.com/photo-1533737338828-ebebc30718b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80"); 
 }
 div{
 	/* background-color: rgb(167, 120, 184); */
 	margin: 10px;
+	margin-left: 20px;
 	width: 25%
 }
 div{
-	border: solid 2px g;
+	/* border: solid 2px; */
 	padding: 10px;
 }
 h1, h3, span{
@@ -19,27 +20,29 @@ h1{
 	font-size: 30pt;
 }
 ol{
-	list-style: decimal inside; 
+	font-size: 18px;
+	/* list-style: decimal inside;  */
 }
 ul {
-	list-style: disc inside;
+	font-size: 19px;
+	/* list-style: disc inside; */
 	text-indent: 20px;
 }
 /* Specfic Elements*/
-div.header, div.gems{
-	/* background-color:rgb(168, 135, 180); */
-}
+
+
 div.header, div.instructions{
-	width: 50%;
+	width: 70%;
 }
 /* Classes */
 .numberToMatch, .winsAndLosses{
+	font-size: 20px;
 	float: left;
 	width: 15%;
 	height: 60px;
 }
 .userTotal{
-    font-size: 20px;
+    font-size: 25px;
 	width: 15%;
 	height: 60px;
 }
@@ -53,7 +56,7 @@ div.header, div.instructions{
 }
 /* IDs */
 #blue{
-	color: #3092c7;
+	color: #064568;
 }
 #green{
 	color: #00aa59;
@@ -72,7 +75,7 @@ div.header, div.instructions{
     position: relative;
 }
 #two {
-    /* margin: 110px 50px 0 100px; */
+	/* margin: 110px 50px 0 100px; */
     margin-right: 60%;
     float: right;
     position: relative;
